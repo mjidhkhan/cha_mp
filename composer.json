@@ -1,0 +1,7 @@
+{
+    "name": "cha_mp",
+    "description": "menu planning app",
+    "require": {
+        "twig/twig": "^2.0"
+    }
+}

@@ -1,0 +1,52 @@
+{% extends '_layout.twig' %}
+{% block title %}
+	<section class="text-center">
+    <div class="title">
+      <h1 class="jumbotron-heading">{{ page }}</h1>
+      <p class="lead ">{{ slogon }}</p>
+    </div>
+  </section>
+{% endblock %}
+{% block content %}
+
+<div class="page-font login0">
+    <div class="card login mb-5" style="max-width: 40rem;">
+        <div class="card-header bg-transparent border-info">Register an account</div>
+            <div class="card-body text-success">
+                <form class="form-signin" action="/pages/register.php" method="post">
+                    <div class="text-center mb-4">
+                    </div>
+                    <div class="form-label-group">
+                        <input type="text" id="inputUsername" name ='username' class="form-control" placeholder="Email address" required autofocus>
+                        <label for="inputEmail">username</label>
+                    </div>
+                    <div class="form-label-group">
+                        <input type="text" id="inputFullname" name ='fullname'class="form-control" placeholder="Email address" required autofocus>
+                        <label for="inputEmail">Full name</label>
+                    </div>
+                    <div class="form-label-group">
+                        <input type="email" id="inputEmail" name ='email' class="form-control" placeholder="Email address" required autofocus>
+                        <label for="inputEmail">Email address</label>
+                    </div>
+                    <div class="form-label-group">
+                        <input type="password" id="inputPassword" name ='password' class="form-control" placeholder="Password" required autofocus>
+                        <label for="inputPassword">Password</label>
+                    </div>
+                    <div class="form-label-group">
+                        <input type="password" id="inputRPassword" name ='repeatpassword' class="form-control" placeholder="Password" required autofocus>
+                        <label for="inputPassword">Confirm Password</label>
+                    </div>
+                    <input autofocus class="form-control" id="inputEmail" name="action" value="REGISTER"  hidden type="text">
+                    <button class="btn btn-lg btn-outline-warning btn-block" type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="card-footer bg-transparent border-black">
+            Already have an account?
+            <a class="btn btn-sm btn-outline-warning float-right" type="button" href="/pages/login.php">Login</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+</div>
+{% endblock %}

@@ -1,0 +1,186 @@
+        @import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i&subset=latin-ext');
+        @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:700');
+        @import url('https://fonts.googleapis.com/css?family=Titillium+Web:200i,300,300i,400,400i,600,600i&subset=latin-ext');
+        body {
+            background: rgb(187, 185, 185);
+        }
+        
+        .alert {
+            border-radius: 0px;
+            margin-bottom: 0px;
+            z-index: +1;
+        }
+        
+        .page-font {
+            font-family: 'Raleway', sans-serif;
+        }
+        
+        .search-font {
+            font-family: 'Titillium Web', sans-serif;
+            font-weight: 300;
+        }
+        
+        .bg-white {
+            background: #ffffff;
+            padding: 2rem;
+        }
+        
+        .logo-font {
+            font-family: 'Cinzel Decorative', cursive;
+        }
+        
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+        
+        body {
+            /* Margin bottom by footer height */
+            background: #353434c5;
+            min-height: 100%;
+        }
+        
+        .top-space {
+            margin-top: 2rem;
+        }
+        
+        .top-bar {
+            background-color: #db6a02 !important;
+            background: #353434fb !important;
+        }
+        
+        .nav-bottom {
+            border-bottom: 1px solid #db6b02de !important;
+        }
+        
+        .product-bottom {
+            border-bottom: 1px solid #db6b02de !important;
+            margin: 1rem;
+        }
+        
+        .title {
+            margin-top: .5rem;
+            margin-bottom: -0.5rem;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            border-bottom: 1px solid #d47c29fd !important;
+        }
+        
+        .navbar-fixed-top.scrolled {
+            background-color: #db811a !important;
+            transition: background-color 200ms linear;
+        }
+        
+        .navbar-fixed-top.scrolled .nav-link {
+            color: #555;
+        }
+        
+        .dropdown-menu {
+            background: #353434fb !important;
+            border: 0px;
+            border-radius: 0px;
+            -webkit-border-radius: 0px;
+            -moz-border-radius: 0px;
+            -ms-border-radius: 0px;
+            -o-border-radius: 0px;
+            margin-top: 6px;
+        }
+        
+        .select:hover {
+            background: #3d3d3d;
+        }
+        
+        .yellow-text {
+            color: #db6a02 !important;
+        }
+        
+        .shadow {
+            /*start ------------*/
+            border: solid #bdbdbd 0px;
+            box-shadow: 0 1px 13px rgba(0, 0, 0, 0.2);
+            -webkit-box-shadow: 0 1px 13px rgba(0, 0, 0, 0.2);
+            -moz-box-shadow: 0 1px 13px rgba(0, 0, 0, 0.2);
+        }
+        
+        .slider-image {
+            width: 50%;
+            height: 50%;
+        }
+        
+        .food-photo {
+            background: #08080898;
+            width: 100%;
+           
+        }
+        
+        .container {
+            /*border: 4px solid #e3e0e0;
+    padding: 2px;*/
+            background: #353434c5;
+            color: #ffffff;
+        }
+        
+        .footer {
+            padding-top: 5rem;
+            height: 10rem;
+            vertical-align: middle;
+            background: #353434d7;
+            border-top: 1px solid #08080898
+        }
+        
+        .products {
+            vertical-align: middle;
+            background: #df7a06ab;
+            padding: 1rem;
+        }
+        
+        .img-top {
+            margin-top: 0rem;
+        }
+        
+        img {
+            width: 100%
+        }
+        
+        .img-bottom {
+            margin-bottom: 2rem;
+        }
+        
+        .txt-top {
+            margin-top: 2rem;
+        }
+        
+        .search {
+            background: #d38004e3;
+            border: 1px solid #ffc107;
+            color: white;
+        }
+        
+        .marketing {
+            margin-top: 8px;
+        }
+        .login, .register{
+            display: block;
+             
+            width: 500px;
+            background: #181d1d80;
+           /* background: #fb9a0b7a;
+            background: #d38004e3;*/
+             border: 1px solid #ffc107;
+            padding: 10px;
+            margin-left: 30%;
+            margin-top: 5%;
+            border-radius: 0px;
+        }
+        .border-black{
+            border-color: #000;
+        }
+        .form-control{
+            border-radius: 0px
+        }
+        .big-brand{
+            font-size: 2rem;
+        }
+        .m-top{
+            margin-top: 3rem;
+        }
