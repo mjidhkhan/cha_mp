@@ -2,7 +2,8 @@
         @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:700');
         @import url('https://fonts.googleapis.com/css?family=Titillium+Web:200i,300,300i,400,400i,600,600i&subset=latin-ext');
         body {
-            background: rgb(187, 185, 185);
+            /* background: rgb(187, 185, 185);*/
+            background: rgb(252, 249, 249);
         }
         
         .alert {
@@ -38,6 +39,7 @@
             /* Margin bottom by footer height */
             background: #353434c5;
             min-height: 100%;
+            background: rgb(252, 249, 249);
         }
         
         .top-space {
@@ -46,7 +48,8 @@
         
         .top-bar {
             background-color: #db6a02 !important;
-            background: #353434fb !important;
+            /*background: #353434fb !important;*/
+            background: #dcaf74a3 !important;
         }
         
         .nav-bottom {
@@ -77,6 +80,7 @@
         
         .dropdown-menu {
             background: #353434fb !important;
+            background: #dcaf74a3 !important;
             border: 0px;
             border-radius: 0px;
             -webkit-border-radius: 0px;
@@ -108,16 +112,18 @@
         }
         
         .food-photo {
-            background: #08080898;
+            background: #080808cc;
+            background: #c77237e6;
             width: 100%;
-           
         }
         
         .container {
             /*border: 4px solid #e3e0e0;
     padding: 2px;*/
             background: #353434c5;
+            background: #dcaf74a3;
             color: #ffffff;
+            color: #000;
         }
         
         .footer {
@@ -131,6 +137,7 @@
         .products {
             vertical-align: middle;
             background: #df7a06ab;
+            background: #fbfbfb;
             padding: 1rem;
         }
         
@@ -159,28 +166,33 @@
         .marketing {
             margin-top: 8px;
         }
-        .login, .register{
+        
+        .login,
+        .register {
             display: block;
-             
             width: 500px;
             background: #181d1d80;
-           /* background: #fb9a0b7a;
+            /* background: #fb9a0b7a;
             background: #d38004e3;*/
-             border: 1px solid #ffc107;
+            border: 1px solid #ffc107;
             padding: 10px;
             margin-left: 30%;
             margin-top: 5%;
             border-radius: 0px;
         }
-        .border-black{
+        
+        .border-black {
             border-color: #000;
         }
-        .form-control{
+        
+        .form-control {
             border-radius: 0px
         }
-        .big-brand{
+        
+        .big-brand {
             font-size: 2rem;
         }
-        .m-top{
+        
+        .m-top {
             margin-top: 3rem;
         }
